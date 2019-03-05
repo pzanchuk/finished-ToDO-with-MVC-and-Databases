@@ -28,4 +28,9 @@
   <button type='submit'>Add</button>
 </form>
 
+<form action="/items/@Model["selectedItem"].GetId()/delete" method="post">
+  <button type="submit" name="button">Delete this item</button>
+</form>
+
+<p><a href="/items/@Model["selectedItem"].GetId()/edit">Edit this item</a></p>
 <p><a href="/">Return to Main Page</a></p>
